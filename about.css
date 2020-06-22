@@ -58,12 +58,4 @@ nav a{
     text-decoration: none;
     padding: .5rem;
     color: black;
-    
-}
-.topimg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-flow: column wrap;
-  font-size: 5rem;
 }
