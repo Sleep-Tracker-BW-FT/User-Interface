@@ -45,6 +45,7 @@ table {
 *{
     /* border: solid black 2px; */
     background-color: #E0F2E9;
+    
 }
 .top{
     display:flex;
@@ -59,7 +60,7 @@ a{
     color: black;
     
 }
-a :hover{
+a:hover{
     color: #3C887E;
 }
 
@@ -87,20 +88,22 @@ a :hover{
     margin: 1%;
     padding: 1%;
     font-size: 3rem;
+    max-width: 100%;
+
 }
 
 .below-img-txt{
     display: flex;
     flex-direction:  row;
     justify-content: center;
-    padding: 5%;
+    padding: 3%;
     font-size: 1.5rem;
     justify-content: space-around;
     background-color: #CEB5A7;
 }
 .txt{
-margin: 3%;
-padding: 5%;
+margin: 5%;
+padding: 3%;
 background-color: #CEB5A7;
 }
 .theBottom{
@@ -121,5 +124,8 @@ margin: 5%;
         }
         .sleep-tracker{
             font-size: 1.75rem;
+        }
+        .below-img-txt{
+            padding: 2%;
         }
     }
