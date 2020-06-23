@@ -52,24 +52,23 @@ table {
     flex-flow: row wrap;
     justify-content: space-around;
     font-size: 2.9rem;
-    margin: 2%;
     padding: 2%;
     max-width: 100%;
-    background-color: #E0F2E9;
+    background-color: #A17C6B;
 
 }
 h1{
-    background-color: #E0F2E9;
+    background-color: #A17C6B;
 
 }
 a{
     text-decoration: none;
     color: black;
-    background-color: #E0F2E9;
+    background-color: #A17C6B;
 
 }
 a:hover{
-    color: #3C887E;
+    color: #CEB5A7;
     
 }
 
@@ -80,20 +79,20 @@ a:hover{
   flex-flow: column wrap;
   font-size: 5rem;
   max-width: 100%;
-  background-color: #3C887E;
+  margin-top: 6%;
 }
 .bed{
     width: 95%;
-    margin:1%;
+    border-radius: 20px;
 }
 .sleep-tracker{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 1%;
     padding: 1%;
     font-size: 3rem;
     max-width: 100%;
+    border-radius: 5px;
 
 }
 

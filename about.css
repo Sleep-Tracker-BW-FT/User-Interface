@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 *{
-     /* border: solid black 2px;  */
+    /* border: solid black 2px;   */
     background-color: #5B7B7A;
 }
 .container{
@@ -52,25 +52,24 @@ table {
 .top{
     display:flex;
     flex-flow: row wrap;
-    background-color: #E0F2E9;
+    background-color: #A17C6B;
     justify-content: space-around;
     font-size: 2.9rem;
-    margin: 2%;
     max-width: 100%;
     padding:2%;
 }
 h1{
-    background-color: #E0F2E9;
+    background-color: #A17C6B;
 
 }
 a{
     text-decoration: none;
     color: black;
-    background-color: #E0F2E9;
+    background-color: #A17C6B;
     
 }
 a:hover{
-    color: #3C887E;
+    color: #CEB5A7;
 }
 
 .Parent{
@@ -84,7 +83,7 @@ margin: 8%;
 padding: 5%;
 font-size: 1.2rem;
 background-color: #3C887E;
-
+border-radius: 20px;
 }
 .child{
 background-color: #3C887E;
@@ -112,15 +111,21 @@ flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 91.8%;
+    width: 92%;
     padding: 4%;
     font-size: 2rem;
     text-align: center;
+    background-color: #CEB5A7;
 }
 #statement{
 font-size: 3rem;
 padding: 2%;
+background-color: #CEB5A7;
 }
+#mission_state{
+    background-color: #CEB5A7;
+}
+
 .thebottom{
     display: flex;
     flex-direction: row;
@@ -165,4 +170,12 @@ padding: 2%;
     }
     .bottom{
         font-size: .9rem;
+    }
+    @media(max-width: 1000px){
+        .Parent{
+            height: 50%;
+        }
+        #description{
+            height: 10%;
+        }
     }
