@@ -43,13 +43,16 @@ table {
 	border-spacing: 0;
 }
 *{
-    /* border: solid black 2px; */
-    background-color: #E0F2E9;
+     /* border: solid black 2px;  */
+    background-color: #5B7B7A;
+}
+.container{
+    width: 100%;
 }
 .top{
     display:flex;
     flex-flow: row wrap;
-    background-color: #A17C6B;
+    background-color: #E0F2E9;
     justify-content: space-around;
     font-size: 2.9rem;
     margin: 2%;
@@ -57,67 +60,109 @@ table {
     padding:2%;
 }
 h1{
-    background-color: #A17C6B;
+    background-color: #E0F2E9;
 
 }
 a{
     text-decoration: none;
     color: black;
-    background-color: #A17C6B;
+    background-color: #E0F2E9;
     
 }
 a:hover{
     color: #3C887E;
 }
+
 .Parent{
-max-width: 100%;
 display: flex;
-justify-content: space-between;
-margin: 10%;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-around;
+align-items: center;
+width: 75%;
+margin: 8%;
 padding: 5%;
 font-size: 1.2rem;
-background-color: #5B7B7A;
-align-items: center;
+background-color: #3C887E;
 
 }
 .child{
 background-color: #3C887E;
-max-width: 100%;
+width: 18%;
 display: flex;
-margin: 5%;
-padding: 1%;
-flex-wrap: wrap;
 justify-content: center;
+margin: 5%;
+padding: 3%;
+flex-wrap: wrap;
 }
 #description{
+    display: flex;
     background-color: #3C887E;
+    padding: 10%;
+    margin: 5%;
+    width: 100%;    
 }
-.jack{
-    width: 75%;
+.pro_pic{
+    background-color: #E0F2E9;
+    width: 100%;
+    padding:3%;
+}
+.mission{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 91.8%;
+    padding: 4%;
+    font-size: 2rem;
+    text-align: center;
+}
+#statement{
+font-size: 3rem;
+padding: 2%;
+}
+.thebottom{
+    display: flex;
+    flex-direction: row;
+
 }
 .bottom{
+    padding: 1%;
+    width: 100%;
     display:flex;
-    flex-flow: row;
     justify-content: center;
+
     background-color: #A17C6B;
     font-size: 2rem;
-    margin: 2%;
 }
 @media(max-width: 500px){
     .top{
         font-size: 1.5rem;
     }
-    
-    .parent{
+    .pro_pic{
+        width: 90%;
+    }
+    .Parent{
+        display: flex;
         flex-direction: column;
-        margin: 2%;
-        padding: 1%;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+       padding: 11.5%;
+        margin: 1%;
+
     }
     .child{
-        margin:1%;
+        justify-content: space-around;
+        width: 50%;
     }
     #description{
+        text-align: center;
+        padding: 2%;
+        width: 100%;
         background-color: #3C887E;
-        font-size: .6rem;
-
+        font-size: 1.3rem;
+    }
+    .bottom{
+        font-size: .9rem;
     }

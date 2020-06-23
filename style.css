@@ -44,7 +44,7 @@ table {
 }
 *{
     /* border: solid black 2px; */
-    background-color: #E0F2E9;
+    background-color: #5B7B7A;
     
 }
 .top{
@@ -55,17 +55,17 @@ table {
     margin: 2%;
     padding: 2%;
     max-width: 100%;
-    background-color: #A17C6B;
+    background-color: #E0F2E9;
 
 }
 h1{
-    background-color: #A17C6B;
+    background-color: #E0F2E9;
 
 }
 a{
     text-decoration: none;
     color: black;
-    background-color: #A17C6B;
+    background-color: #E0F2E9;
 
 }
 a:hover{
@@ -80,16 +80,12 @@ a:hover{
   flex-flow: column wrap;
   font-size: 5rem;
   max-width: 100%;
-  background-color: #5B7B7A;
-  border: solid #A17C6B 2px;
+  background-color: #3C887E;
 }
 .bed{
     width: 95%;
+    margin:1%;
 }
-
-    
-
-
 .sleep-tracker{
     display: flex;
     flex-direction: row;
@@ -113,6 +109,7 @@ a:hover{
 .txt{
 margin: 5%;
 padding: 3%;
+text-align: center;
 background-color: #CEB5A7;
 }
 footer{
@@ -125,11 +122,11 @@ footer{
     justify-content: center;
     background-color: #A17C6B;
     font-size: 2rem;
-    margin: 2%;
     max-width: 100%;
 }
 .bottom{
-margin: 5%;
+padding: 2%;
+background-color: #A17C6B;
 
 }
     @media(max-width: 500px){
@@ -141,5 +138,8 @@ margin: 5%;
         }
         .below-img-txt{
             padding: 2%;
+        }
+        .theBottom{
+            font-size: 1rem;
         }
     }
