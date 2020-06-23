@@ -105,6 +105,7 @@ flex-wrap: wrap;
     background-color: #E0F2E9;
     width: 100%;
     padding:3%;
+    border-radius: 8px;
 }
 .mission{
     display: flex;
