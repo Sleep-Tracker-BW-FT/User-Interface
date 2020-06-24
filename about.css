@@ -48,6 +48,7 @@ table {
 }
 .container{
     width: 100%;
+    justify-content: center;
 }
 .top{
     display:flex;
@@ -78,7 +79,6 @@ flex-direction: row;
 flex-wrap: wrap;
 justify-content: space-around;
 align-items: center;
-width: 75%;
 margin: 8%;
 padding: 5%;
 font-size: 1.2rem;
@@ -169,8 +169,16 @@ background-color: #CEB5A7;
         background-color: #3C887E;
         font-size: 1.3rem;
     }
+    #statement{
+        font-size: 2.8;
+    }
     .bottom{
-        font-size: .9rem;
+        font-size: 1.8rem;
+    }
+    @media( max-width: 800px){
+        .top{
+            font-size: 1.8rem
+        }
     }
     @media(max-width: 1000px){
         .Parent{

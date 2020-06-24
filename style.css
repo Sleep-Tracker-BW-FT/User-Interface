@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 *{
-    /* border: solid black 2px; */
+     /* border: solid black 2px;  */
     background-color: #5B7B7A;
     
 }
@@ -80,9 +80,11 @@ a:hover{
   font-size: 5rem;
   max-width: 100%;
   margin-top: 6%;
+  height: 60%;
 }
 .bed{
-    width: 95%;
+    width: 50%;
+    height: -10%;
     border-radius: 20px;
 }
 .sleep-tracker{
@@ -130,6 +132,7 @@ background-color: #A17C6B;
     @media(max-width: 500px){
         .top{
             font-size: 1.5rem;
+            padding: 2%;
         }
         .sleep-tracker{
             font-size: 1.75rem;
@@ -142,5 +145,13 @@ background-color: #A17C6B;
         }
         .theBottom{
             font-size: 1rem;
+        }
+    }
+    @media(max-width: 800px){
+        .top{
+            font-size: 2rem;
+        }
+        .txt0{
+            font-size:2rem;
         }
     }
