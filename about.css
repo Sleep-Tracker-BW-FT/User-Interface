@@ -43,7 +43,7 @@ table {
 	border-spacing: 0;
 }
 *{
-    /* border: solid black 2px;   */
+     /* border: solid black 2px;    */
     background-color: #5B7B7A;
 }
 .container{
@@ -90,9 +90,14 @@ font-size: 1.2rem;
 background-color: #3C887E;
 border-radius: 20px;
 }
+#team{
+    background-color: #3C887E;
+    font-size: 3rem;
+
+}
 .child{
 background-color: #3C887E;
-width: 18%;
+width: 25%;
 display: flex;
 justify-content: center;
 margin: 5%;
@@ -163,6 +168,7 @@ background-color: #CEB5A7;
         margin: 1%;
 
     }
+    
     .child{
         justify-content: space-around;
         width: 50%;
@@ -185,6 +191,7 @@ background-color: #CEB5A7;
         .top{
             font-size: 1.8rem
         }
+       
     }
     @media(max-width: 1000px){
         .Parent{
