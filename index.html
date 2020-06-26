@@ -13,21 +13,23 @@
     <title>Sleep Tracker</title>
 </head>
 <body>
-    <div class = 'container'>
+    <div class = 'container' role = "main">
         <header>
-            <div class = "top">
-                <h1>Sleep Tracker</h1>
+            <div class = "top" role = "banner">
+                <a href = "index.html">Sleep Tracker</h1>
                 <a href="about.html">About</a>
+                <a href = 'https://front-end-2libacrsk.vercel.app/login' > Login</a>
+                <a href = 'https://front-end-2libacrsk.vercel.app/register'>Sign up</a>
             </div>
         </header>
         <section >
-            <div class="topimg">
+            <div class="topimg" role = "img">
                 <img src="images/bed-linen-1149842_1280.jpg" alt="Bed with pillow and sheets" class = "bed">
             </div>
         </section>
         <section>
-            <div class='sleep-tracker'> <p class= 'txt0'>Understand Your Sleep Schedule</p> </div>
-                <div class= "below-img-txt">
+            <div class='sleep-tracker'> <p class= 'txt0' role = "heading">Understand Your Sleep Schedule</p> </div>
+                <div class= "below-img-txt" role = "article">
                     
                     <span class= 'beg'>What is Sleep Tracker?</span>
                     <P class= 'txt txt1'>  <br>
@@ -41,10 +43,21 @@
                         By tailoring a consistent sleep pattern most beneficial to you, your daily energy 
                         and general mood will increase.  
                     </P>
+                    <p class= 'beg'>Features of Sleep Tracker</p>
+                    <P class= 'txt txt2'>
+                        Sleep Tracker provides a log of sleep entries entered by the user to calculate the total time in bed. <br> <br>
+                        The user has the ability to edit  or delete the sleep entries. <br>  <br>We use a simple emoji rating system to 
+                        calculate the mood of the user after each night, <br> <br> how the user felt during the day and how tired they were
+                        before they went to bed. <br> <br> Sleep Tracker uses these ratings to determine the best sleep schedule for the user.   
+                    </P>
+                </div>
+                <div class= 'chart'>
+                    <p class = 'charttxt'> Sleep Tracker log <br> </p>
+                    <img src = images/Chart.png class = chartpic>
                 </div>
         </section>
         <footer>
-            <div class = theBottom>
+            <div class = theBottom role = "navigation">
                 <a href="about.html" class= "bottom">About</a>
             </div>
         </footer>

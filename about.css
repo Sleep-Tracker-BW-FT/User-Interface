@@ -108,8 +108,8 @@ flex-wrap: wrap;
     display: flex;
     background-color: #3C887E;
     padding: 10%;
-    margin: 5%;
-    width: 100%;    
+    margin: 1%;
+    width: 100%;
 }
 .pro_pic{
     background-color: #E0F2E9;
@@ -191,7 +191,27 @@ background-color: #CEB5A7;
         .top{
             font-size: 1.8rem
         }
-       
+        .Parent{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+           padding: 11.5%;
+            margin: 1%;
+    
+        }
+        .child{
+            justify-content: space-around;
+            width: 50%;
+        }
+        #description{
+            text-align: center;
+            padding: 2%;
+            width: 100%;
+            background-color: #3C887E;
+            font-size: 1.3rem;
+        }
     }
     @media(max-width: 1000px){
         .Parent{
